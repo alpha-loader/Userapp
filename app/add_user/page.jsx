@@ -24,7 +24,7 @@ const AddUser = ({ onSignupSuccess }) => {
 
     if (signupPassword !== signupConfirmPassword) {
       alert("Passwords don't match!");
-      return;
+      return; 
     }
 
     // Collect all signup data
